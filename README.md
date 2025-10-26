@@ -1,6 +1,6 @@
 # 4 Axis USB Joystick
 
-This is a simple USB Joystick written in CircuitPython, using the [Joystick_XL](https://github.com/fasteddy516/CircuitPython_JoystickXL) library.
+This is a simple USB Joystick written in [CircuitPython](https://circuitpython.org/), using the [Joystick_XL](https://github.com/fasteddy516/CircuitPython_JoystickXL) library.
 Nothing particularly complex, most of the heavy lifting is done by Joystick_XL, but I'm making the repository public just in case anyone finds it useful
 
 This is built for the Raspberry Pi Pico2 microcontroller. It should work with any other microcontroller that support USB and CircuitPython. It uses CircuitPython rather than MicroPython because it requires support for USB HID.
