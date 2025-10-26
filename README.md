@@ -5,7 +5,7 @@ Nothing particularly complex, most of the heavy lifting is done by Joystick_XL, 
 
 This is built for the Raspberry Pi Pico2 microcontroller. It should work with any other microcontroller that support USB and CircuitPython. It uses CircuitPython rather than MicroPython because it requires support for USB HID.
 
-This uses the easily available Jh-D400X-R2 joystick (Aliexpress, Amazon,...)
+This uses the easily available Jh-D400X-R2 joystick ([Aliexpress](https://www.aliexpress.us/w/wholesale-Jh%2525252dD400X%2525252dR2-4-axis.html?spm=a2g0o.productlist.search.0), [Amazon](https://www.amazon.com/s?k=Jh-D400X-R2&crid=1CKJ3M0AV3JNP&sprefix=jh-d400x-r2%2Caps%2C95),...)
 
 ## Building
 
@@ -24,6 +24,11 @@ The code assumes that the joystick is connected to the Pico2 as follows
 <tr><td>ADC0 (pin 31)</td><td>center terminal on pan pot</td></tr>
 </table>
 
+## Use
+
+I use this with my [VISCA Game Controller](https://github.com/DanTappan/VISCA-Game-Controller) app for controlling Ethernet connected PTZ cameras. 
+
+Under normal use, the code does not export the CircuitPython filesystem to the connected computer. If you want to edit the code, you can cause it to export the filesystem by holding down the joystick button for 5 seconds after plugging in the USB connector.
 
 ## Images
 
