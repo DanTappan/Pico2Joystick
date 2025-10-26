@@ -33,6 +33,8 @@ I use this with my [VISCA Game Controller](https://github.com/DanTappan/VISCA-Ga
 Under normal use, the code does not export the CircuitPython filesystem to the connected computer. If you want to edit the code, you can cause it to export the filesystem by holding down the joystick button for 5 seconds after plugging in the USB connector.
 
 ## Images
-
+![Packaged Joystick](JoystickExternal.png "Joystick Package")
+![Joystick Internals](JoystickInternal.png "Joystick Internals")
 ![Pico2 Pinout](Pico2Pinouts.png "Pico2 pinouts") 
 ![Joystick wiring](Joystick.png "Joystick wiring")
+
