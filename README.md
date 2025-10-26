@@ -17,8 +17,8 @@ This uses the easily available Jh-D400X-R2 joystick (Aliexpress, Amazon,...)
 The code assumes that the joystick is connected to the Pico2 as follows
 <table>
 <tr><td>GP3 (pin 5)</td><td>joystick button (blue wire)</td></tr>
-<tr><td>3V3 (pin 36)</td>+ reference on joystick pots: red wire and left pot terminals<td></td></tr>
-<tr><td>GND (pin 33)</td><td>other blue wire, black wire, and - potentiometer reference (right pot terminals)</td></tr>
+<tr><td>3V3 (pin 36)</td><td>positive reference on joystick pots: red wire and left pot terminals</td></tr>
+<tr><td>GND (pin 33)</td><td>other blue wire, black wire, and negative potentiometer reference (right pot terminals)</td></tr>
 <tr><td>ADC2 (pin 34)</td><td>white wire</td></tr>
 <tr><td>ADC1 (pin 32)</td><td>center terminal (wiper) on tilt pot</td></tr>
 <tr><td>ADC0 (pin 31)</td><td>center terminal on pan pot</td></tr>
@@ -27,3 +27,5 @@ The code assumes that the joystick is connected to the Pico2 as follows
 
 ## Images
 
+![Pico2 Pinout](Pico2Pinouts.png "Pico2 pinouts") 
+![Joystick wiring](Joystick.png "Joystick wiring")
