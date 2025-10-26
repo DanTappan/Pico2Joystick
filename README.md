@@ -7,6 +7,8 @@ This is built for the Raspberry Pi Pico2 microcontroller. It should work with an
 
 This uses the easily available Jh-D400X-R2 joystick ([Aliexpress](https://www.aliexpress.us/w/wholesale-Jh%2525252dD400X%2525252dR2-4-axis.html?spm=a2g0o.productlist.search.0), [Amazon](https://www.amazon.com/s?k=Jh-D400X-R2&crid=1CKJ3M0AV3JNP&sprefix=jh-d400x-r2%2Caps%2C95),...)
 
+The current code supports a single button, using the button on top of the joystick. This could easily be extended to multiple buttons connected to the Pico2 GPIO ports
+
 ## Building
 
 1. [Install CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython)
